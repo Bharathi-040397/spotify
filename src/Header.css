@@ -1,0 +1,36 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.header__left
+{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+    border-radius: 99px;
+    flex: 0.5;
+    min-width: 60px;
+    height: 20px;
+
+}
+.header__left>input{
+    border: none;
+    width: 100%;
+}
+.header__right
+{
+    display: flex;
+    align-items: center;
+     margin-left: 20px;
+     margin-right: 10px;
+    
+    
+}
+.header__right>h5{
+    margin-left: 8px;
+    margin-right: 5px;
+    color:#1db954;
+    
+}
